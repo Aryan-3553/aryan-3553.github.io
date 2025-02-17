@@ -14,39 +14,43 @@ interface Experience {
 }
 
 const experiences: Experience[] = [
-  // {
-  //   title: "SLC Student Manager",
-  //   company: "Waterloo Undergraduate Student Association",
-  //   location: "Waterloo, ON",
-  //   date: "Jan 2024 - Present",
-  //   description: [
-  //     "Improved Live Chat satisfaction by 32% by analyzing user data, training staff on Dialogflow modules, and creating a standardized FAQ resource.",
-  //     "Managed accounting at the service desk, overseeing discrepancy resolution and staff training."
-  //   ],
-  //   color: "#FF6B6B"
-  // },
-  // {
-  //   title: "Technology Research Analyst",
-  //   company: "ABC Leathers",
-  //   location: "Gurgaon, Haryana",
-  //   date: "Aug 2022 - Oct 2022",
-  //   description: [
-  //     "Created and managed a SQL database to enhance competitive analysis, strengthening strategic positioning and decision-making.",
-  //     "Cut cloth wastage by 15% through recycling initiatives, boosting production efficiency and revenue in blazer and coat manufacturing."
-  //   ],
-  //   color: "#4ECDC4"
-  // },
-  // {
-  //   title: "Marketing Coordinator",
-  //   company: "UW Computer Science Club",
-  //   location: "Waterloo, ON",
-  //   date: "May 2023 - Apr 2024",
-  //   description: [
-  //     "Managed social media channels, including videography for reels and creation of engaging posts and stories with captivating captions.",
-  //     "Utilized Instagram insights to identify optimal posting times, resulting in a 28% increase in views and likes."
-  //   ],
-  //   color: "#FFD93D"
-  // }
+  {
+    title: "Software Engineer Intern",
+    company: "BTNX",
+    location: "Toronto, ON",
+    date: "Sep 2024 - Dec 2024",
+    description: [
+      "Revamped the functionality and UI of the RapidReader App for 150k+ iOS/Android users using the .NET MAUI framework, resulting in a massive increase in user engagement (based on Google app usage analytics).",
+      "Redesigned a large-scale management website (20+ databases) using TypeScript, React, C#, and SQL, driving improvement in data retrieval speed (verified by performance and load-testing benchmarks).",
+      "Developed Python scripts to automate testing of PyTorch-based deep learning models, achieving 97% strip reader accuracy (measured by comprehensive test suite logs)."
+    ],
+    color: "#FF6B6B"
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "University of Waterloo",
+    location: "Waterloo, ON",
+    date: "Jan 2024 - Apr 2024",
+    description: [
+      "Developed code and executed comprehensive test cases (including automated testing) leveraging Codeception within the Drupal (PHP) environment.",
+      "Spearheaded the adoption of API automation testing, increasing test coverage by 25% and identifying critical backend issues, ensuring the quality and functionality of WCMS3 project features.",
+      "Refactored and combined multiple Python API endpoints, speeding up the WCMS search system by 20%.",
+      "Identified, documented, and reported bugs and issues in backend of Waterloo's Content Management System, contributing to enhanced system efficiency."
+    ],
+    color: "#4ECDC4"
+  },
+  {
+    title: "Full Stack Software Engineer Intern",
+    company: "INTECH",
+    location: "Orlando, FL",
+    date: "May 2022 - Aug 2022",
+    description: [
+      "Worked closely with senior UI developers and leveraged React (React Router, Styled Components, and Axios) to implement robust front-end functionality for their e-commerce platform.",
+      "Containerized the website on AWS EC2 with Docker, boosting scalability & cutting deployment time by 6 mins.",
+      "Built and tested a live HTML-to-PDF API with Python and Postman, generating real-time reports for users."
+    ],
+    color: "#FFD93D"
+  }
 ]
 
 const sectionVariants = {

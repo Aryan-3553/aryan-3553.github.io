@@ -21,43 +21,55 @@ interface Project {
 }
 
 const projects: Project[] = [
-  // {
-  //   id: 1,
-  //   name: 'Enhanced Expense Tracker',
-  //   categories: ['Python', 'Data Visualization', 'GUI Development', 'Data Management', 'Data Analysis'],
-  //   images: [
-  //     '/images/expense-tracker/expense-tracker-budget.png',
-  //     '/images/expense-tracker/expense-tracker-add-expense.png',
-  //     '/images/expense-tracker/expense-tracker-add-expense-filled.png',
-  //     '/images/expense-tracker/expense-tracker-summary.png',
-  //     '/images/expense-tracker/expense-tracker-export.png'
-  //   ],
-  //   description: 'A personal finance tracker with GUI using Tkinter, visualizing spending trends through Matplotlib, and handling data storage with Pandas and CSV.'
-  // },
-  // {
-  //   id: 2,
-  //   name: 'Binary-Decimal Converter',
-  //   categories: ['Python', 'GUI Development'],
-  //   images: [
-  //     '/images/binary-to-decimal/binary-converter.png'
-  //   ],
-  //   description: 'A converter using Python\'s Tkinter for seamless conversion between binary and decimal formats, with input validation and a user-friendly interface.'
-  // },
-  // {
-  //   id: 3,
-  //   name: 'Furniture Layout Optimization (SLC)',
-  //   categories: ['Project Management', 'Documentation'],
-  //   images: [
-  //     '/images/furniture-layout/furniture-layout-1.png',
-  //     '/images/furniture-layout/furniture-layout-2.png',
-  //     '/images/furniture-layout/furniture-layout-3.png',
-  //     '/images/furniture-layout/furniture-layout-4.png',
-  //   ],
-  //   description: 'Created a standardized manual using Microsoft Word and Canva, aiding staff orientation and optimizing space utilization at the SLC.'
-  // }
+  {
+    id: 1,
+    name: 'Eaters-Eye',
+    categories: ['Vue.js', 'TailwindCSS', 'Python (Flask)', 'Google Cloud Vision API', 'Full-Stack', 'Frontend'],
+    images: [
+      // '/images/expense-tracker/expense-tracker-budget.png',
+      // '/images/expense-tracker/expense-tracker-add-expense.png',
+      // '/images/expense-tracker/expense-tracker-add-expense-filled.png',
+      // '/images/expense-tracker/expense-tracker-summary.png',
+      // '/images/expense-tracker/expense-tracker-export.png'
+    ],
+    description: 'Developed a full-stack AI web-app, utilizing Vue.js, Tailwind CSS, and Python, enabling users to capture or upload food images for instant retrieval of nutritional information. Implemented a robust backend system with Flask, integrated Google Cloud Vision API for image analysis, and CalorieNinja API for accurate nutritional data, and then successfully deployed the app using Vercel.'
+  },
+  {
+    id: 2,
+    name: 'DeliverLink',
+    categories: ['ReactJS', 'Redux', 'NodeJS', 'ExpressJS', 'MongoDB', 'Material-UI', 'Socket.io', 'Frontend', 'Full-Stack'],
+    images: [
+      // '/images/binary-to-decimal/binary-converter.png'
+    ],
+    description: 'Utilized MERN stack to develop a full-stack web app that addresses critical gaps in existing courier system by bridging operational inefficiencies, offering a more efficient and reliable solution for courier management.'
+  },
+  {
+    id: 3,
+    name: 'RedWish',
+    categories: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'Firebase', 'Frontend'],
+    images: [
+      // '/images/furniture-layout/furniture-layout-1.png',
+      // '/images/furniture-layout/furniture-layout-2.png',
+      // '/images/furniture-layout/furniture-layout-3.png',
+      // '/images/furniture-layout/furniture-layout-4.png',
+    ],
+    description: 'Designed a website connecting donors, recipients, & blood banks, thus streamlining blood donation & transfusion. Used HTML, CSS, JS, Bootstrap and jQuery to implement a responsive user-friendly interface. Leveraged Firebase for backend database management and real-time updates, while implementing DialogFlow for a conversational AI chatbot.'
+  },
+  {
+    id: 4,
+    name: 'Chess',
+    categories: ['C++20', 'XQuartz', 'OOP', 'MVC', 'Backend Development', 'GUI Development'],
+    images: [
+      // '/images/furniture-layout/furniture-layout-1.png',
+      // '/images/furniture-layout/furniture-layout-2.png',
+      // '/images/furniture-layout/furniture-layout-3.png',
+      // '/images/furniture-layout/furniture-layout-4.png',
+    ],
+    description: 'Engineered a C++ chess engine adhering to SDLC, and created UML diagrams for robust class architecture, efficient piece management, and dynamic game features employing various design patterns. Also, developed test suites, utilizing CMake for build automation and XWindows for GUI rendering.'
+  }
 ]
 
-const categories = ['All', 'Python', 'Full-Stack', 'GUI Development', 'Backend Development', 'Frontend']
+const categories = ['All', 'Full-Stack', 'GUI Development', 'Backend Development', 'Frontend']
 
 export default function ProjectsSection() {
   const [filter, setFilter] = useState('All')

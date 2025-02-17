@@ -154,7 +154,7 @@ export default function AboutSection() {
       variants={sectionVariants}
       style={{ opacity, scale }}
     >
-      {/* <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4">
         <motion.div className="max-w-4xl mx-auto text-center mb-16" variants={itemVariants}>
           <motion.h2 
             className="text-4xl font-bold text-white mb-6" 
@@ -179,43 +179,8 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8, delay: 0.7 }}
           >
-            I&apos;m Krish Arora, a Bachelor of Mathematics student at the University of Waterloo, expecting to graduate in 2027. 
-            With a strong foundation in data analysis and strategic decision-making, I excel at identifying market trends to drive business insights. 
-            My technical expertise includes proficiency in SQL, Power BI, and advanced Excel functions, enabling efficient data management and interpretation of complex datasets.
+            Passionate Computer Science student specializing in Human-Computer Interaction at the University of Waterloo , with a strong foundation in software development (mobile applications and full-stack web) and a keen enthusiasm for AI, ML, and computer vision . My unique blend of technical expertise and innovative thinking allows me to create impactful software solutions that bridge technology and user experience.
           </motion.p>
-          <motion.p 
-            className="text-lg text-gray-300 mb-6" 
-            variants={itemVariants}
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-          >
-          Certified in Introduction to Career Skills in Data Analytics, Bloomberg Market Concepts, Webflow 101, and Data-Driven Decision Making from Google Data Analytics (all in 2024), I am committed to continuous learning and professional development. 
-          I have a keen interest in upcoming AI models and enjoy researching how they work and their potential applications.
-          </motion.p>
-          <motion.p 
-            className="text-lg text-gray-300 mb-8" 
-            variants={itemVariants}
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.8, delay: 1.1 }}
-          >
-          Outside of my academic and professional pursuits, I love reading books and staying active by going to the gym.
-          </motion.p>
-          <motion.a
-            href="/Krish_Arora_CV.pdf"
-            download="Krish_Arora_CV.pdf"
-            className="inline-flex items-center px-8 py-3 bg-orange-500 text-black rounded-full hover:bg-orange-600 transition-all group"
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.1 }}
-            variants={itemVariants}
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <span className="font-semibold">Download CV</span>
-            <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
-          </motion.a>
         </motion.div>
 
         <motion.div 
@@ -241,7 +206,7 @@ export default function AboutSection() {
             </motion.div>
           ))}
         </motion.div>
-      </div> */}
+      </div>
     </motion.section>
   );
 }
