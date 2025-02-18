@@ -5,11 +5,11 @@ import { motion, useInView } from 'framer-motion'
 import { Smartphone, Code, PenTool, LineChart, Layers, Zap } from 'lucide-react'
 
 const services = [
-  { icon: Smartphone, title: 'App Development', description: 'Creating intuitive and efficient mobile applications tailored to your needs.' },
-  { icon: Code, title: 'Web Development', description: 'Building responsive and dynamic websites using cutting-edge technologies.' },
-  { icon: PenTool, title: 'UI/UX Design', description: 'Crafting user-centered designs that enhance user experience and engagement.' },
-  { icon: LineChart, title: 'Data Analysis', description: 'Extracting meaningful insights from complex datasets to drive informed decisions.' },
-  { icon: Layers, title: 'Database Management', description: 'Designing and optimizing database structures for efficient data storage and retrieval.' },
+  { icon: Smartphone, title: 'Mobile App Development', description: 'Creating intuitive and efficient mobile applications tailored to your needs.' },
+  { icon: Code, title: 'Full Stack Development', description: 'Building responsive and dynamic websites using cutting-edge technologies.' },
+  { icon: PenTool, title: 'UI Design', description: 'Crafting user-centered designs that enhance user experience and engagement.' },
+  { icon: LineChart, title: 'Artificial Intelligence', description: 'Extracting meaningful insights from complex datasets to drive informed decisions.' },
+  { icon: Layers, title: 'Machine Learning', description: 'Designing and optimizing database structures for efficient data storage and retrieval.' },
   { icon: Zap, title: 'Performance Optimization', description: 'Enhancing the speed and efficiency of your applications and systems.' },
 ]
 

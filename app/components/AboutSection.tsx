@@ -84,28 +84,28 @@ CircularProgress.displayName = 'CircularProgress';
 
 const skills: Skill[] = [
   { 
-    icon: "/icons/python-icon.svg",
+    icon: "/icons/C-sharp-icon.svg",
     label: 'Python',
     percentage: 90
   },
   {
-    icon: "/icons/react-icon.svg",
+    icon: "/icons/C-sharp-icon.svg",
     label: 'React',
+    percentage: 90
+  },
+  {
+    icon: "/icons/C-sharp-icon.svg",
+    label: 'C++',
     percentage: 85
   },
   {
-    icon: "/icons/SQL-icon.svg",
-    label: 'SQL',
-    percentage: 85
-  },
-  {
-    icon: "/icons/msexcel-icon.svg",
-    label: 'Excel',
+    icon: "/icons/C-sharp-icon.svg",
+    label: 'C#',
     percentage: 80
   },
   {
-    icon: "/icons/hubspot-icon.svg",
-    label: 'HubSpot',
+    icon: "/icons/C-sharp-icon.svg",
+    label: 'TypeScript',
     percentage: 85
   }
 ];
