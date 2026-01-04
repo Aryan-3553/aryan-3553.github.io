@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <title>Aryan Patel - Developer</title>
-        <meta name="description" content="Portfolio of Aryan Patel, showcasing skills in data analysis and development." />
+        <meta name="description" content="Portfolio of Aryan Patel, showcasing mobile app and full-stack development." />
       </head>
       <body className={`${inter.className} bg-black text-white`}>
         <AnimatePresence mode="wait">
