@@ -7,7 +7,7 @@ import { Instagram, Linkedin, Github, Mail } from 'lucide-react'
 
 const navItems = [
   { name: 'Home', href: '#home' },
-  { name: 'Services', href: '#services' },
+  { name: 'Skills', href: '#services' },
   { name: 'About me', href: '#about' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact me', href: '#contact' },

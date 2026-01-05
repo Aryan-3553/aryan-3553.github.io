@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const navItems = [
     { name: 'Home', href: '#home' },
-    { name: 'Skills', href: '#services' },
+    { name: 'Skills', href: '#services' }, // Changed from 'Services'
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
@@ -80,7 +80,7 @@ export default function Navbar() {
               href="#contact"
               className="hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-black bg-orange-500 hover:bg-orange-600 transition-colors"
             >
-              Hire Me
+              Connect with Me
             </Link>
           </motion.div>
 

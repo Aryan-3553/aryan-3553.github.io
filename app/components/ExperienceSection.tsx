@@ -14,6 +14,18 @@ interface Experience {
 }
 
 const experiences: Experience[] = [
+   {
+    title: 'Software Engineer Intern',
+    company: 'Vertex AI',
+    location: 'San Francisco, CA',
+    date: 'May 2025 - Aug 2025',
+    description: [
+      'Developed an AI native compliance agent that autonomously gathers and validates audit evidence across frameworks (e.g., SOC 2, HIPAA), to surface compliance gaps and reduce manual audit prep time.',
+      'Implemented and enhanced customer-facing dashboards for compliance automation using Typescript & Next.js.',
+      'Built workflows to classify and verify compliance evidence (logs, policies, access records) using Pinecone vector database and RAG, enabling real-time validation.'
+    ],
+    color: '#1E90FF'
+  },
   {
     title: "Software Engineer Intern",
     company: "BTNX",

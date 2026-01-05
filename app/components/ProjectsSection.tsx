@@ -23,6 +23,32 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    name: 'Skopeo',
+    images: [],
+    categories: ['FastAPI', 'Python', 'Next.js', 'TypeScript', 'Collabora Online', 'AWS', 'Docker', 'PostgreSQL', 'WOPI', 'LLMs', 'MCP', 'AI/ML'],
+    description: 'An AI-native spreadsheet application that integrates advanced AI capabilities within a familiar grid interface using WOPI. Built on Collabora Online for robust editing and real-time collaboration, with a Next.js frontend and FastAPI backend handling authentication, file management, and AI-driven operations. Features include multi-step planning for data cleaning, formula generation, and visualization, all with cell-level provenance tracking for reproducibility.'
+  },
+  {
+    id: 2,
+    name: 'Airbnb Listings Analysis',
+    images: [],
+    categories: ['Python', 'Flask', 'PostgreSQL', 'PostGIS', 'pgAdmin4', 'Plotly', 'HTML', 'CSS', 'JavaScript', 'Full-Stack'],
+    description: 'A comprehensive web application for managing and analyzing AirBnb property listings. Features include advanced search, filtering, sorting, geospatial queries, intelligent recommendations, and an interactive analytics dashboard. Built with a focus on data-driven insights and user-friendly interfaces.'
+  },
+    {
+    id: 3,
+    name: 'Chess',
+    categories: ['C++20', 'XQuartz', 'OOP', 'MVC', 'Backend Development', 'GUI Development'],
+    images: [
+      // '/images/furniture-layout/furniture-layout-1.png',
+      // '/images/furniture-layout/furniture-layout-2.png',
+      // '/images/furniture-layout/furniture-layout-3.png',
+      // '/images/furniture-layout/furniture-layout-4.png',
+    ],
+    description: 'Engineered a C++ chess engine adhering to SDLC, and created UML diagrams for robust class architecture, efficient piece management, and dynamic game features employing various design patterns. Also, developed test suites, utilizing CMake for build automation and XWindows for GUI rendering.'
+  },
+  {
+    id: 4,
     name: 'Eaters-Eye',
     categories: ['Vue.js', 'TailwindCSS', 'Python (Flask)', 'Google Cloud Vision API', 'Full-Stack', 'Frontend'],
     images: [
@@ -35,7 +61,7 @@ const projects: Project[] = [
     description: 'Developed a full-stack AI web-app, utilizing Vue.js, Tailwind CSS, and Python, enabling users to capture or upload food images for instant retrieval of nutritional information. Implemented a robust backend system with Flask, integrated Google Cloud Vision API for image analysis, and CalorieNinja API for accurate nutritional data, and then successfully deployed the app using Vercel.'
   },
   {
-    id: 2,
+    id: 5,
     name: 'DeliverLink',
     categories: ['ReactJS', 'Redux', 'NodeJS', 'ExpressJS', 'MongoDB', 'Material-UI', 'Socket.io', 'Frontend', 'Full-Stack'],
     images: [
@@ -44,7 +70,7 @@ const projects: Project[] = [
     description: 'Utilized MERN stack to develop a full-stack web app that addresses critical gaps in existing courier system by bridging operational inefficiencies, offering a more efficient and reliable solution for courier management.'
   },
   {
-    id: 3,
+    id: 6,
     name: 'RedWish',
     categories: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'Firebase', 'Frontend'],
     images: [
@@ -54,22 +80,10 @@ const projects: Project[] = [
       // '/images/furniture-layout/furniture-layout-4.png',
     ],
     description: 'Designed a website connecting donors, recipients, & blood banks, thus streamlining blood donation & transfusion. Used HTML, CSS, JS, Bootstrap and jQuery to implement a responsive user-friendly interface. Leveraged Firebase for backend database management and real-time updates, while implementing DialogFlow for a conversational AI chatbot.'
-  },
-  {
-    id: 4,
-    name: 'Chess',
-    categories: ['C++20', 'XQuartz', 'OOP', 'MVC', 'Backend Development', 'GUI Development'],
-    images: [
-      // '/images/furniture-layout/furniture-layout-1.png',
-      // '/images/furniture-layout/furniture-layout-2.png',
-      // '/images/furniture-layout/furniture-layout-3.png',
-      // '/images/furniture-layout/furniture-layout-4.png',
-    ],
-    description: 'Engineered a C++ chess engine adhering to SDLC, and created UML diagrams for robust class architecture, efficient piece management, and dynamic game features employing various design patterns. Also, developed test suites, utilizing CMake for build automation and XWindows for GUI rendering.'
   }
 ]
 
-const categories = ['All', 'Full-Stack', 'GUI Development', 'Backend Development', 'Frontend']
+const categories = ['All', 'AI/ML', 'Full-Stack', 'GUI Development', 'Backend Development', 'Frontend']
 
 export default function ProjectsSection() {
   const [filter, setFilter] = useState('All')

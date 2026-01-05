@@ -5,8 +5,8 @@ import { motion, useInView } from 'framer-motion'
 import { Smartphone, Code, PenTool, LineChart, Layers, Zap } from 'lucide-react'
 
 const services = [
-  { icon: Smartphone, title: 'Mobile App Development', description: 'Creating intuitive and efficient mobile applications tailored to your needs.' },
   { icon: Code, title: 'Full Stack Development', description: 'Building responsive and dynamic websites using cutting-edge technologies.' },
+  { icon: Smartphone, title: 'Mobile App Development', description: 'Creating intuitive and efficient mobile applications tailored to your needs.' },
   { icon: PenTool, title: 'UI Design', description: 'Crafting user-centered designs that enhance user experience and engagement.' },
   { icon: LineChart, title: 'Artificial Intelligence', description: 'Extracting meaningful insights from complex datasets to drive informed decisions.' },
   { icon: Layers, title: 'Machine Learning', description: 'Designing and optimizing database structures for efficient data storage and retrieval.' },

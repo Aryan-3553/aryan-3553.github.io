@@ -179,7 +179,7 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8, delay: 0.7 }}
           >
-            Passionate Computer Science student specializing in Human-Computer Interaction at the University of Waterloo , with a strong foundation in software development (mobile applications and full-stack web) and a keen enthusiasm for AI, ML, and computer vision . My unique blend of technical expertise and innovative thinking allows me to create impactful software solutions that bridge technology and user experience.
+            Passionate senior Computer Science student specializing in Artificial Intelligence at the University of Waterloo , with a strong foundation in software development (mobile applications and full-stack web) and a keen enthusiasm for AI, ML, and computer vision . My unique blend of technical expertise and innovative thinking allows me to create impactful software solutions that bridge technology and user experience.
           </motion.p>
         </motion.div>
 
